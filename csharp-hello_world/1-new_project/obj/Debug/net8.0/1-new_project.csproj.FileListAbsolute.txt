@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\bin\Debug\net8.0\1-new_project.exe
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\bin\Debug\net8.0\1-new_project.deps.json
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\bin\Debug\net8.0\1-new_project.runtimeconfig.json
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\bin\Debug\net8.0\1-new_project.dll
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\bin\Debug\net8.0\1-new_project.pdb
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.AssemblyInfo.cs
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.sourcelink.json
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.dll
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\refint\1-new_project.dll
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.pdb
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.genruntimeconfig.cache
+C:\Users\Admin\Desktop\alu-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\ref\1-new_project.dll
