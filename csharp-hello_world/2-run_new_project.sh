@@ -1,11 +1,16 @@
 #!/usr/bin/env bash
-dotnet new console -o 2-new_project
-# Navigate into the new project directory
-cd 2-new_project || { echo "Directory not found!"; exit 1; }
 
-# Overwrite Program.cs with code to print "Hello World"
-cat <<EOL > Program.cs
-using System;
+#Initializing a new C# console project in the folder 2-new_project
+dotnet new console -o 2-new_project
+
+# Navigating to the new project directory
+cd 2-new_project
+
+# Building the project 
+dotnet build
+
+# Modify Program.cs to print "Hello World!"
+echo 'using System;
 
 class Program
 {
@@ -13,7 +18,6 @@ class Program
     {
         Console.WriteLine("Hello World!");
     }
-}
-EOL
-dotnet build
+}' > Program.cs
+
 dotnet run
