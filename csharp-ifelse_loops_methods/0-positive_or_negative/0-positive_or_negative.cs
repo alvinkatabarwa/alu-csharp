@@ -9,11 +9,11 @@ class Program
 	   
        if (number > 0)
        {
-        Console.WriteLine($"{number} is Positive");
+        Console.WriteLine($"{number} is positive");
        }
        else if(number == 0)
        {
-        Console.WriteLine($"{number} is Zero");
+        Console.WriteLine($"{number} is zero");
        }
        else 
        {
