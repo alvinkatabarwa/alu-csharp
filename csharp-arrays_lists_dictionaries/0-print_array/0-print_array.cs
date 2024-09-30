@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class MyProgram  // Renamed class
 {
     static void Main(string[] args)
     {
