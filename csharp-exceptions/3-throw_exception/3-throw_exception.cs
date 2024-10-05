@@ -1,10 +1,16 @@
-﻿using System;
+using System;
 
-public class Except
+class Program
 {
-    public static void Throw()
+    static void Main(string[] args)
     {
-        // Throwing an exception
-        throw new Exception("Exception raised");
+        try
+        {
+            Except.Throw();
+        }
+        catch (Exception)
+        {
+            Console.WriteLine("Exception raised");
+        }
     }
 }
