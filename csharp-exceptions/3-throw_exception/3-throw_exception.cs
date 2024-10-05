@@ -1,7 +1,10 @@
-class Except
+﻿using System;
+
+public class Except
 {
     public static void Throw()
     {
-        throw new Exception();
+        // Throwing an exception
+        throw new Exception("Exception raised");
     }
 }
