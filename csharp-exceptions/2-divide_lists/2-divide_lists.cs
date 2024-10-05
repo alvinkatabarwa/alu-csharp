@@ -1,28 +1,40 @@
 using System;
-using System.Collections.Generic; // Correct namespace
+using System.Collections.Generic;
 
-class ListOperations // Changed class name to avoid conflict with built-in List
+public class ListOperations
 {
     public static List<int> Divide(List<int> list1, List<int> list2, int listLength)
     {
         List<int> result = new List<int>();
-        int div = 0;
 
         for (int i = 0; i < listLength; i++)
         {
             try
             {
-                div = list1[i] / list2[i];
-                result.Add(div);
+                if (i >= list1.Count || i >= list2.Count)
+                {
+                    throw new IndexOutOfRangeException("Out of range");
+                }
+
+                if (list2[i] == 0)
+                {
+                    Console.WriteLine("Cannot divide by zero");
+                    result.Add(0);
+                }
+                else
+                {
+                    result.Add(list1[i] / list2[i]);
+                }
             }
-            catch (IndexOutOfRangeException)
+            catch (IndexOutOfRangeException ex)
             {
-                Console.WriteLine("Out of range");
+                Console.WriteLine(ex.Message);
+                result.Add(0);
             }
             catch (DivideByZeroException)
             {
                 Console.WriteLine("Cannot divide by zero");
-                result.Add(0); // Handle division by zero by adding 0 to result
+                result.Add(0);
             }
         }
 
