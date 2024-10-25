@@ -1,4 +1,6 @@
 // 1-instance.cs
+using System;
+
 public class Obj
 {
     public static bool IsInstanceOfArray(object obj)
